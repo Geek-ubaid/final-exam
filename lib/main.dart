@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system, // Automatically switch between light/dark
       debugShowCheckedModeBanner: false,
-      home: const HomeScreen(),
+      home: const MemoryGroupsScreen(),
     );
   }
 }
